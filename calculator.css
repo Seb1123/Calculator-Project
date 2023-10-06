@@ -4,7 +4,6 @@ body {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    border: 5px solid red;
     height: 800px;
 }
 
@@ -13,6 +12,15 @@ body {
     flex-flow: column nowrap;  
     justify-content: center;
     align-items: center;
+}
+
+.screen {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 113px;
 }
 
 .calc {
