@@ -12,6 +12,12 @@ body {
     flex-flow: column nowrap;  
     justify-content: center;
     align-items: center;
+    background-image: url("./Images/Calculator_StockPhoto_MOD.jpg");
+    height:800px;
+    width: 550px;
+    padding-top: 252px;
+    padding-left: 11px;
+    padding-bottom: -50px
 }
 
 .screen {
@@ -19,8 +25,12 @@ body {
     flex-flow: row nowrap;
     background-color: white;
     border: 2px solid black;
-    height: 30px;
-    width: 113px;
+    height: 130px;
+    width: 230px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 3px;
+    background-color: greenyellow;
 }
 
 .calc {
@@ -30,6 +40,13 @@ body {
     margin: 0;
     padding: 0;
     gap: 10px;
+    width: 233px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+    padding-bottom: -50px;
+    background-color: burlywood;
 }
 
 .numbers .row_4{
@@ -43,7 +60,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .numbers {
@@ -56,4 +73,15 @@ body {
     display: flex;
     flex-flow: column nowrap;
     gap: 5px;
+    justify-self: space-between;
+    align-items: space-between;
+    margin-right: -20px;
+}
+
+button.digit {
+    width: 50px;
+}
+
+button.neutral {
+    width: 100px;
 }
